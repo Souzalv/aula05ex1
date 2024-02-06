@@ -1,21 +1,37 @@
-body{
-background-color: bisque;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Roboto+Condensed:wght@200&display=swap');
 
+
+img{
+    width:300px ;
+    
+}
+
+.container{
+display: flex;
+justify-content: center;
+background-color: #A8D8EA;
+}
+
+.container div{
+    border-bottom-left-radius: 20px;
+    background-color: #AA96DA;
+    padding: 10px;
+    margin: 10px;
 }
 
 
-div{
-background-color: aquamarine;
 
+.nome{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-h1{
-color: blue;
-
-}
-
-h2{
-    color: red;
-
-
+.title{
+    justify-content: center;
+    display: flex;
+    background-color: #FCBAD3;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
